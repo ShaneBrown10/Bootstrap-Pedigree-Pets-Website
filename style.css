@@ -1,0 +1,380 @@
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #60ecc2;
+    --button-color: #008CBA;
+    --hover-color: #00734d; /* Define the hover color */
+   
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+
+/* banner section---------------------- */    
+    
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    background-image: url('21x9_pet_shop_banner_for_rear_pets_in.png'); /* Add the background image */
+    background-size: cover; /* Ensure the background image covers the banner */
+    background-position: center;
+    padding: 100px 10px;
+}
+.banner img {
+    width: 100px;
+}
+.banner input[type="text"] {
+    padding: 5px; /* Adjust padding */
+    font-size: 1rem;
+    width: 120px; /* Set the width to make it smaller */
+}
+
+
+
+/*form section----------------------*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*      Navigation section----------------------*/
+
+.navbar-nav .nav-link {
+    font-size: 1.25rem; /* Increase the font size as needed */
+  }
+
+/* - --------------------------*/
+
+
+nav {
+    background-color: #60ecc2;;
+    padding: 10px 0;
+    
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li {
+    padding: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    
+}
+nav ul li a:hover {
+    color: white;
+    background-color: #00734d; /* Change color on hover */
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+    
+}
+/*      Body section----------------------*/
+.body-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Optional: Set the height to cover the full viewport */
+}
+
+.body-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* Optional: Set the height to cover the full viewport */
+}
+
+
+
+
+.info-box {
+    text-align: center; /* Ensure text inside the box is centered */
+}
+
+/*      Button section----------------------*/
+.body-content button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the button circular */
+    color: #ffffff;
+    text-shadow: 1px 4px 6px #000000;
+    font-size: 1.8rem;
+    border: none;
+    cursor: pointer;
+    
+    margin: 10px;
+    background-size: cover; /* Ensure background image covers the button */
+    background-position: center;
+    position: relative;
+}
+
+
+.body-content button:hover {
+    background-color: var(--hover-color);
+    transform: translatey(-15px); /* Moves the button up when hovered */
+    transition: 0.4s ease;
+}
+
+.button1 {
+    background-image: url('maine_coon.jpg');
+    font-style:none;
+    font-weight: bold;
+} 
+.button2 {
+    background-image: url('saint-bernard.jpg');
+    font-style:none;
+    font-weight: bold;
+}
+.button3 {
+    background-image: url('fish.jpg');
+    font-style:none;
+    font-weight: bold;
+}
+.button4 {
+    background-image: url('birds.jpg');
+    font-style:none;
+    font-weight: bold;
+}
+
+
+
+
+
+.outlined-text {
+    color: white; /* White text color */
+    text-shadow:
+        -1px -1px 0 #0000005b,  
+         1px -1px 0 #00000067,
+        -1px  1px 0 #00000021,
+         1px  1px 0 #000000ec;  /* Black outline */
+}
+
+
+    
+/* box section ------------*/
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 1px;
+    background-color: #c6f8ed;
+    border-radius: 0%;
+    
+    
+}
+
+.info-box {        
+    width: 100%;
+    padding: 30px;
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: none;
+    
+    box-sizing: content-box;
+    width: 90%;
+    margin: 10px;
+}
+
+/* About  Us----------------------*/
+
+.about-us {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400%;
+    max-width: 800px;
+    text-align: center;
+    font-size: larger;
+    
+    
+}
+
+
+
+
+
+
+/*      form section----------------------*/
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+}
+
+.form-group textarea {
+width: 95%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+background-color: #333;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+background-color: #555;
+}
+
+
+.email-label::before {
+    content: "✉️";
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.phone-label::before {
+    content: "📞";
+    font-size: 1rem;
+    margin-right: 5px;
+    
+}
+
+
+
+/*      social media section------------------*/
+
+.social-box {
+    display: grid;
+    grid-row: 1 /span 2;
+    justify-content:center;
+    margin: 10px;
+    padding: 20px;
+    background-color: none;
+    border: 0px solid hsl(0, 0%, 100%);
+    box-sizing: content-box;
+    width: 10%;
+    
+
+}
+
+
+
+
+/*      Footer section----------------------*/
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 1px;
+    height: px;
+    font-weight: lighter;
+}
+
+
+@media (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        padding: 50px 10px;
+        text-align: center;
+    }
+    .banner img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    .banner input[type="text"] {
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 0.1px;
+        height: 48px;
+    }
+    .body-content {
+        flex-direction: column;
+        align-content: center;
+    }
+    .body-content button {
+        width: 120px;
+        height: 120px;
+        font-size: 1.5rem;
+    }
+    .info-box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0;
+       
+        
+    }
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        justify-content: center;
+        border: #000000;
+        
+        
+    }
+    .social-box {
+        width: 100%;
+    }
+    footer {
+        padding: 20px 10px;
+        
+}
+}
